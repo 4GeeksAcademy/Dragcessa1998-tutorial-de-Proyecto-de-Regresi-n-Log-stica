@@ -1,3 +1,16 @@
-__pycache__
+__pycache__/
 .env
 .learn
+.ipynb_checkpoints/
+.DS_Store
+
+data/raw/*
+!data/raw/.gitkeep
+data/interim/*
+!data/interim/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+
+models/*.joblib
+models/*.pkl
+models/*.pickle
